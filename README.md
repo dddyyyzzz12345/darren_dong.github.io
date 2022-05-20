@@ -19,3 +19,17 @@
 * Proficient in feature engineering, web scraping and constructing data pipelines to consolidate high-performing data storage.
 
 # Projects and Research
+
+## *1. Free Sample Promotion Strategy Project* [Link]
+ - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+
+
+## *1. Free Sample Promotion Strategy Project* [Link]
+ - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+
+## *1. Free Sample Promotion Strategy Project* [Link]
+ - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+
+## *1. Free Sample Promotion Strategy Project* [Link]
+ - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+
