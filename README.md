@@ -38,6 +38,7 @@
 ## *5. Titanic and House Prices Advanced Regression* [Link]
  - Kaggle Competation
 
+## *6. Sentiment Analysis* [Link]
 
 
 
