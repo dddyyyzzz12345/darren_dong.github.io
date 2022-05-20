@@ -12,5 +12,10 @@
 
 
 # Self Introduction
-### fast learnersfs fsf sdfsd fsdf sdf sdf sd
+* High statistical data scientist with experience in machine learning modeling, big data ETL and investment risk management. 
 
+* Two years of developing quantitative methods and ML models for solving complex business strategy problems. 
+
+* Proficient in feature engineering, web scraping and constructing data pipelines to consolidate high-performing data storage.
+
+# Projects and Research
