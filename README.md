@@ -24,12 +24,21 @@
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
 
-## *1. Free Sample Promotion Strategy Project* [Link]
+## *2. Forecasted Promotion Revenue for ROI* [Link]
+ - Predicted seasonal sales with decision tree regressor and SVR. Applied results in sales campaigns to estimate ROI
+
+## *3. Discount Strategy with B2B Client -- Thermo Fisher Scientific*
+ - Attempted with time series ARIMA forecast. Reached to 4% sales increase with largest client in company
+
+
+## *4. Study of Forecasting Stocks with Time Series* [Link]
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
-## *1. Free Sample Promotion Strategy Project* [Link]
- - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
-## *1. Free Sample Promotion Strategy Project* [Link]
- - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+## *5. Titanic and House Prices Advanced Regression* [Link]
+ - Kaggle Competation
+
+
+
+
 
