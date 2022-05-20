@@ -35,8 +35,9 @@
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
 
-## *5. Titanic and House Prices Advanced Regression* [Link]
- - Kaggle Competation
+## *5. Kaggle Competation* [Link]
+ - Titanic
+ - House Prices Advanced Regression Techniques
 
 ## *6. Sentiment Analysis* [Link]
 
