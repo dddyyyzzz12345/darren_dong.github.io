@@ -27,7 +27,7 @@
 ## *2. Forecasted Promotion Revenue for ROI* [Link]
  - Predicted seasonal sales with decision tree regressor and SVR. Applied results in sales campaigns to estimate ROI
 
-## *3. Discount Strategy with B2B Client -- Thermo Fisher Scientific*
+## *3. Discount Strategy with B2B Client -- Thermo Fisher Scientific* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/Fisher.ipynb)
  - Attempted with time series ARIMA forecast. Reached to 4% sales increase with largest client in company
 
 
