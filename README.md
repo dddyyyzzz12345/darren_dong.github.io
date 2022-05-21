@@ -20,11 +20,11 @@
 
 # Projects and Research
 
-## *1. Free Sample Promotion Strategy Project* [Link]
+## *1. Free Sample Promotion Strategy Project* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/FTA.ipynb)
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
 
-## *2. Forecasted Promotion Revenue for ROI* [Link]
+## *2. Forecasted Promotion Revenue for ROI* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/FTA.ipynb)
  - Predicted seasonal sales with decision tree regressor and SVR. Applied results in sales campaigns to estimate ROI
 
 ## *3. Discount Strategy with B2B Client -- Thermo Fisher Scientific* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/Fisher.ipynb)
