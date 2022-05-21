@@ -31,7 +31,7 @@
  - Attempted with time series ARIMA forecast. Reached to 4% sales increase with largest client in company
 
 
-## *4. Study of Forecasting Stocks with Time Series* [Link]
+## *4. Study of Forecasting Stocks with Time Series* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/tree/main/Stock_TimeSeries)
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
 
 
@@ -39,7 +39,6 @@
  - Titanic
  - House Prices Advanced Regression Techniques
 
-## *6. Sentiment Analysis* [Link]
 
 
 
