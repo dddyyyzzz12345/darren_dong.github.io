@@ -20,8 +20,10 @@
 
 # Projects and Research
 
-## *1. Free Sample Promotion Strategy Project* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/FTA.ipynb)
- - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
+## *1. JPX Tokyo Stock Prediction with Time Series* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/FTA.ipynb)
+ - Predicted with time series models: ARIMA and Long short-term memory(LSTM). Evaluated with Sharpe Ratio and ranked highest to 10th place
+ <img width="1130" alt="Screen Shot 2022-06-19 at 11 07 53 AM" src="https://user-images.githubusercontent.com/67172057/176336468-109f6829-7983-47e0-afb4-6a757da193ad.png">
+
  
 ## *2. Free Sample Promotion Strategy Project* [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/blob/main/FTA.ipynb)
  - Modelled a linear relationship between revenue and sample cost. Minimized promotion cost by optimize sample size
