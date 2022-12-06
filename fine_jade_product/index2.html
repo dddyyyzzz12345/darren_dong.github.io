@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Product page for Fine Jade">
+    <meta name="author" content="Darren Dong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <link rel="icon" href="image/logo_final.png" type = "image/x-icon">
+    <link rel="stylesheet" href="dict/prdstyle.css"/>
+    <title>Fine Jade | Product</title>
+
+
+</head>
+
+
+<body>
+  
+  <div id = "product-list">
+      <div class="header">
+          <ul>
+              <li><a href="https://fine-jade.com/"> <strong class="link hover-left">< BACK</strong> | </a></li>
+              <li><a class="link hover-right" href="#"> Products > </a></li>
+
+              <img src="image/title.png" alt="title" class="image">           
+          </ul>
+
+          
+      </div>
+
+      <div class="col-sm-12">
+        <div v-if="shopbymenu" class="panel">
+          <transition>
+            <div class="col-sm-12">
+            
+   
+              <!--
+
+                <div class="col-sm-4 text-right">
+                    <h2 style="margin-top: 0.25rem; margin-bottom: 0.25rem;">
+                        <a @click = "shopbymenu = false" class= "text-right" href="#"> X </a>
+                    </h2>
+                </div>
+
+                <div class="col-sm-12">
+                    <ul class="mainmenu">
+                        <li><a href="#" class="text-center" @click="change(0)" :class="{ newStyle:0===number }">戒指</a></li>
+                        <li><a href="#" class="text-center" @click="change(1)" :class="{ newStyle:1===number }">手串/手链</a></li>
+                        <li><a href="#" class="text-center" @click="change(2)" :class="{ newStyle:2===number }">手镯</a></li>
+                        <li><a href="#" class="text-center" @click="change(3)" :class="{ newStyle:3===number }">挂件/吊坠</a></li>
+                        <li><a href="#" class="text-center" @click="change(4)" :class="{ newStyle:4===number }">耳饰</a></li>
+                    </ul>
+                </div>
+              -->
+
+              <h3>BEST SELLER</h3>
+
+              <div class = "popular__image">
+                <div id="menu-slider-container">
+                  <ul id="menu-slider">
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list1.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list2.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list3.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list4.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list5.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list6.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list7.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list8.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list9.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list10.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list11.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list12.jpeg);"></a></li>
+                    <li><a href="contact/index.html" target="_blank" rel="noopener noreferrer" class="menu-slider-link" style = "background-image: url(/image/slider_list/list13.jpeg);"></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+      
+            </div>
+          </transition>
+            
+        </div>
+
+      </div>
+
+      <div class="col-sm-12 product-list-all">
+        <div id="filters">
+            
+          <div class="sidebar">
+    
+            <!-- sidebar  -->
+
+            <transition name="fade">
+              <a v-if="!shopbymenu" v-on:click="shopbymenu = true " href="#" class="showBtn button-primary" >
+                <span class="fi-arrows-expand"></span>DISPLAY SHOP BY
+              </a>
+            </transition>
+    
+            <h5>category</h5>
+
+            <span class="line"></span>
+
+            <section class="section color-picker-section" >
+        
+              <div class="wrapper">
+
+                <a href="#" class="color-picker" v-for='color in categories' :class="{selected: isActive(color)}" @click.prevent="setActive(color)">
+                  {{color}}
+                </a>
+              </div>
+            </section>
+        </div>
+      </div>
+    
+      </div>
+
+      <div id='product-list-wrapper'>
+        <div class="col-sm-12">
+          <h4 class="title">TOTAL RESULTS <span>({{filteredItems.length}})</span></h4> <!-- 9 products  -->
+            <ul class="tags">
+              <!-- Loop tags -->
+                <li class='tag' v-for ="filterAppied in filtersAppied">
+                  <a @click='removeTags(filterAppied)' style="cursor: pointer;">X</a>
+                  <transition name="fade">
+                    <h4>{{filterAppied}}</h4>
+                  </transition>
+                </li>
+                <li>
+                  <transition name="fade">
+                    <a v-if="filtersAppied.length > 0" href="#" class="link" @click.prevent="filtersAppied = []"> Clear All</a> 
+                  </transition>
+                </li>
+            </ul>
+
+          
+          <div class="wrapper-product-list">
+            <!--
+           <div class="dropdown sort-by">
+              <header>
+                <h5>SORT BY: </h5>
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </header>
+              <ul>
+                <li @click ="sortingOption=1">
+                  <a>Price Low-High</a>
+                </li>
+
+                <li @click ="sortingOption=2">
+                <a>Price High-Low</a>
+                </li>
+              </ul>
+            </div>
+
+            -->
+ 
+
+            <div class="grid-placeholder">
+              <div class="grid-list">
+                
+                <div class="col-sm-12">
+                   <h3 v-if='filteredItems.length == 0'>Products no found!</h3>
+                </div>
+                
+                <!-- Loop products  -->
+                <section v-for ="product in filteredItems" >
+                  <div class="grid-item-wrapper">
+                    
+                    <div class="grid-item">
+                      <div class="grid-image">
+                        <a class="addfavority" href="contact/index.html" target="_blank" rel="noopener noreferrer">  
+                          <img :src ='product.image'>
+                        </a>
+                        
+                      </div>
+
+                      <div class="grid-item-color">
+                        <div class="header">
+                          {{ product.name }}
+                        </div>
+
+                        <div class="list">
+                          <div class="slider-product">
+                            <div class="swiper-slid-product">
+                              <img src="[% settings.media_url %]/images/place-holder.jpg">
+                            </div>
+                            <div class="swiper-slid-product">
+                              <img src="[% settings.media_url %]/images/place-holder.jpg">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="grid-item-name">
+                        {{product.color.join('')}}
+                      </div>
+                      
+                      <div class="grid-item-price">
+                        PRICE: ${{product.price }}
+                      </div>
+
+                    </div>
+                  </div>
+                </section>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!--
+      <button @click ="sortingOption=1">
+        High-Low
+      </button>
+
+      <button  @click ="sortingOption=2">
+        Low-High
+      </button>
+      <div v-for="obj in this.sortedArray" :key="obj.name">
+        <h3>
+          ${{ obj.price }} - {{ obj.name }}
+        </h3>
+
+      </div>
+      -->
+
+      
+    
+  </div>
+    
+</body>
+
+<footer>
+  <br>
+  <br>
+  <br>
+  <br>
+</footer>
+
+
+<script src="app/js/prdscript.js"></script>
+
+</html>

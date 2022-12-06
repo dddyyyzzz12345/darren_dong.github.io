@@ -1,0 +1,49 @@
+#product-list {
+    padding: 0.625rem;
+    padding-top: 1.25rem;
+}
+
+
+.col-sm-4, .col-sm-12 {
+    position: relative;
+    min-height: 0.0625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    
+}
+
+body {
+    margin: 0; }
+  
+* {
+    box-sizing: border-box;
+}
+
+.text-right {
+    text-align: right;
+}
+
+div{
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+
+a {
+    background-color: transparent; 
+    color: #000;
+    text-decoration: none; 
+    &:hover, &:focus {
+        color: black;
+        text-decoration: underline; 
+    }
+
+    &:focus {
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px; 
+    }
+}
+
