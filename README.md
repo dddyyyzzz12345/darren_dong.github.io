@@ -43,6 +43,7 @@
 ## *6. Kaggle Competation*
  - Titanic [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/tree/main/Titanic)
  - House Prices Advanced Regression Techniques [Link](https://github.com/dddyyyzzz12345/darren_dong.github.io/tree/main/house-prices-advanced-regression-techniques)
+ - Store Sales - Time Series Forecasting[link](https://github.com/dddyyyzzz12345/darren_dong.github.io/tree/main/store-sales-time-series-forecasting)
 
 
 
